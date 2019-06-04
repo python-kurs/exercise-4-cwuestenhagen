@@ -96,6 +96,8 @@ def create_climate_diagram(df,
 
     # Save the figure as png image in the "output" folder with the given filename. [1P]
     
+    plt.savefig(filename)
+    
     return fig
 
 # Use this function to draw a climate diagram for 2018 for both stations and save the result: [1P]
